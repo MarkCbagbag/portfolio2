@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MGC</title>
     <link rel="stylesheet" href="New folder/style.css">
-    <!--Bootsrap cdn-->
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -14,121 +14,154 @@
 <body>
     <!-- Navbar section -->
     <section id="Navbar">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+
+
+        <nav class="align-items-center text-center navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container">
+                <img src="img/images-removebg-preview.png" alt="" style="width: 10%; color: blanchedalmond;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <div class="container">
-                        <div class="hello" style="width: 75%;">
-                            <ul class="navbar-nav">
-                                <li class="nav-item" style="width: 30%;">
-                                    <a class="text-white font-monospace nav-link active" aria-current="page"
-                                        href="#">Home</a>
-                                </li>
-                                <li class="nav-item" style="width: 30%;">
-                                    <div class="container">
-                                        <a class="text-white font-monospace nav-link" href="#">Portfolio</a>
-                                </li>
-                                <li class="nav-item" style="width: 30%;">
-                                    <a class="text-white font-monospace nav-link" href="#">Service</a>
-                                </li>
-                                <li class="nav-item dropdown" style="width: 30%;">
-                                    <a class="text-white font-monospace nav-link" href="#">About</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbar" style="padding-left: 40%;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </section>
+
     <!-- Hero section -->
     <section id="hero">
-        <div class="container container-fluid " style="padding-top: -10%;">
-            <div class="row d-flex align-item-center text-white" style="padding: 6%;">
-                <div>
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-lg-6">
                     <img src="img/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated_138676-5680.avif"
-                        alt="" style="padding-top: -30%;">
-                    <p class="  text-white text-center col-12 fs-1 fw-bolder"
-                        style=" margin-top: -45%; padding-top: 20rem; padding-left: 20rem;">Hello! I'M
-                        Mark </p>
-                    <p class=" text-white text-center col-12 fw-light" style="padding-left: 20rem;">I am a Web Designer
-                        and i love creating <br>
-                        visual elements for a site</p>
-                    <button type="button" class="btn btn-primary bg-white btn-lg text-black"
-                        style="margin-left: 30%; ">Contact me</button>
-                    <button type="button" class="btn  btn-lg text-white">Learn More</button>
+                        alt="" class="img-fluid" style=" padding-top: 10%;">
+                </div>
+                <div class="col-lg-6 text-white">
+                    <p class=" fs-1 fw-bolder">Hello! I'M Mark</p>
+                    <p class="fw-light">I am a Web Designer and I love creating visual elements for a site</p>
+                    <button type="button" class="btn btn-secondary btn-lg">Contact me</button>
+                    <button type="button" class="btn btn-lg btn-outline-light">Learn More</button>
                 </div>
             </div>
-        </div>
-        <div>
-            <div class="row d-flex align-item-center fw-light text-white" style="margin-left: 50%;">
-                <p>The best customer service is when end users don't need to reach out to the help desk.</p>
-                <p>-Nishant Rao</p>
+            <div class="row text-center mt-3 text-white">
+                <p class="col-lg-12">The best customer service is when end users don't need to reach out to the help
+                    desk.</p>
+                <p class="col-lg-12">-Nishant Rao</p>
             </div>
+        </div>
     </section>
+
     <!-- Work section -->
-    <section id="Work" style="text-align: center;">
-        <div class="container   ">
-            <h1 class="text-black">My work</h1>
-            <div class="row text-white">
-                <div class="col-6">
+    <section id="Work">
+        <h1 class="align-items-center text-dark">My Works</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
                     <img src="img/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg"
-                        alt="" style="width: 50%; padding-left: 205; padding-top: 15%; margin-left: 10%;">
+                        alt="" style="width: 50%;">
+                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</h6>
                 </div>
-                <div class="col-6" style="padding-top: 8%; padding-right: 20%;">
-                    <h2 class="text-black">work1</h2>
-                    <p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book</p>
-                </div>
-                <div class="col-6" style="padding-top: 10%; padding-left: 20%;">
-                    <h2 class="text-black">WORK2</h2>
-                    <p class="text-black"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book
-                    </p>
-                </div>
-                <div class="col-6">
+                <div class="col-sm">
                     <img src="img/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg"
-                        alt="" style="width: 50%; padding-right: 205; padding-top: 15%; margin-right: 10%;">
+                        alt="" style="width: 50%;">
+                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</h6>
                 </div>
-                <div class="col-6">
+                <div class="col-sm">
                     <img src="img/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg"
-                        alt=""
-                        style="width: 50%; padding-left: 205; padding-top: 15%; margin-left: 10%; padding-bottom: 5%;">
-                </div>
-                <div class="col-6" style="padding-top: 10%; padding-right: 20%;">
-                    <h2 class="text-black">WORK3</h2>
-                    <p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book
-                    </p>
+                        alt="" style="width: 50%;">
+                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</h6>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Certificate section -->
     <section id="certificate">
-        <div class="container container-fluid">
-            <h1 class="text-white" style="padding-top: 10%;">MY CERTIFICATES</h1>
-            <div style="padding-top: 8%;">
-                <img src="img/23.PNG"
-                    alt="" style="margin-right: 65%; width: 25%;">
-                <img src="img/asd.PNG"
-                    alt="" style="width: 25%; margin-top: -25%;">
-                    <img src="img/Capture.PNG"
-                    alt="" style="margin-left: 65%; width: 25%; margin-top: -25%;">
+        <div class="container">
+            <h1 class="align-item-center text-white">CERTIFICATES</h1>
+            <div class="row">
+                <div class="col-sm col-lg-6">
+                    <img src="img/23.PNG" alt="" style="width: 50%;">
+                </div>
+                <div class="col-sm col-lg-6">
+                    <img src="img/c2-1.png" alt="" style="width: 50%;">
+                </div>
+                <div class="col-sm col-lg-6">
+                    <img src="img/Capture.PNG" alt="" style="width: 50%; padding-top: 5%;  padding-bottom: 5%">
+                </div>
+                <div class="col-sm col-lg-6">
+                    <img src="img/c1-1.png" alt="" style="width: 50%; padding-top: 5%;  padding-bottom: 5%">
+                </div>
             </div>
         </div>
     </section>
-    <section id="about me">
+
+    <!--service-->
+    <section id="service" class="text-center">
+        <h1 style="padding-top: 5%;"> Services </h1>
+        <div class="container">
+            <div class="row" style="padding-top: 5%; padding-bottom: 5%;">
+                <div class="col-sm" style=" padding-bottom: 5%;">
+                    <img src="img/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated_138676-5680.avif"
+                        alt="">
+                </div>
+                <div class="col-sm" style="padding-bottom: 5%;">
+                    <img src="img/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated_138676-5680.avif"
+                        alt="">
+                </div>
+                <div class="col-sm">
+                    <img src="img/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated_138676-5680.avif"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="aboutme">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-lg-6" style="padding-top: 5%; padding-bottom: 5%;">
+                    <img src="img/cute-cool-boy-dabbing-pose-cartoon-vector-icon-illustration-people-fashion-icon-concept-isolated_138676-5680.avif"
+                        alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 text-white">
+                    <p class=" fs-1 fw-bolder">About me</p>
+                    <p class="fw-light">I am a Web Designer and I love creating visual elements for a site</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--footer-->
+    <section id="footer">
+
+        <h3>©2023-2024 Mark GLenly Cabagbag, Student | Web Developer. Cheers! 🍻</h3>
 
     </section>
+
 </body>
 
 </html>
